@@ -1,6 +1,7 @@
 [build]
-  publish = "public"
+  command = "npm run build"  # Command to run for building the project
+  publish = "public"         # Directory to publish after building
 
 [dev]
-  command = "npm start"
-  port = 8888
+  command = "npm start"      # Command to run for local development
+  port = 8888                # Port to use for local development
